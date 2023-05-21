@@ -26,7 +26,7 @@ export const Slider = () => {
   var name ="";
   return (
     <div className="bg-dark">
-    <h2 style={{color:'white', marginLeft: 50, marginTop: 100, marginRight: 50}}>SERIES</h2>
+    <h2 style={{color:'white', marginLeft: 51, marginTop: 100, marginRight: 50}}>SERIES</h2>
     <div className='row row-cols-1 row-cols-md-3 g-4' style = {{backgroundColor: 'white', marginLeft: 50, marginTop: 100, marginRight: 50}}>
       {Comics.map(per => (
         name = per.creators.items[0]?.name || 'DESCONOCIDO',
