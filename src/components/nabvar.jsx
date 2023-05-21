@@ -20,10 +20,10 @@ export const NabVar = () => {
     <Link  class="nav-link text-white h5 " >Comics</Link>
   </li>
   <li class="nav-item">
-    <Link class="nav-link text-white h5" >Historias</Link>
+    <Link to="/Series" class="nav-link text-white h5" >Historias</Link>
   </li>
   <li class="nav-item">
-    <Link to="/a" class="nav-link text-white h5" >Series</Link>
+    <Link  class="nav-link text-white h5" >Series</Link>
   </li>
   <li class="nav-item">
     <Link class="nav-link text-white h5" >Imagenes</Link>
